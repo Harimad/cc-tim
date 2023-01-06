@@ -4,12 +4,22 @@ export const Wrapper = styled.div`
   margin: auto;
   width: 800px;
 `;
-export const Email = styled.div`
-  color: red;
+
+export const InputBox = styled.div`
+  margin-top: 1rem;
 `;
-export const EmailInput = styled.input`
-  width: 500px;
+export const Title = styled.h1`
+  text-align: center;
 `;
-export const LogoImg = styled.img`
-  width: 50%;
+
+export const Label = styled.label``;
+
+export const ID = styled.input`
+  width: 100%;
+  padding: 1rem;
+`;
+
+export const Password = styled.input`
+  width: 100%;
+  padding: 1rem;
 `;
